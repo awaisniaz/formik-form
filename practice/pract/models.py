@@ -22,8 +22,8 @@ class Musician(models.Model):
 
 class Album(models.Model):
     BOOK_TYPE = (
-        ('F', 'Fantisy'),
-        ('FS', 'Sciencce Fiction'),
+        ('F', 'Fantasy'),
+        ('FS', 'Science Fiction'),
     )
     artist = models.ForeignKey(Musician, on_delete=models.CASCADE)
     name = models.CharField(max_length=100)

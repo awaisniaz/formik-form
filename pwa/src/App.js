@@ -2,6 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  // if('serviceworker' in navigator){
+
+  //   navigator.serviceWorker.register('../sw.js')
+  //   .then((reg)=>{
+  //     console.log("Console.login",reg)
+  //   })
+  //   .catch(()=>{
+  //     console.log("Something went wrong")
+  //   })
   return (
     <div className="App">
       <header className="App-header">
